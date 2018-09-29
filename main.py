@@ -41,7 +41,7 @@ for dIndex, dValue in enumerate(data):
     tmp_data = sorted(tmp_data, key=itemgetter(0))
     
     # define figure
-    p = figure(plot_width=1500, plot_height=800, tools=tools_to_show,
+    p = figure(plot_width=1200, plot_height=500, tools=tools_to_show,
                title="HRV evolution", x_axis_label='timestamp', y_axis_label='HRV')
     
     # extract RTC and HRV
